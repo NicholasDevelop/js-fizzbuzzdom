@@ -5,7 +5,7 @@ for(let i=1; i <= 100; i++){
 
     const li = document.createElement('li');
     li.classList.add('general-box');
-    li.classList.add('col-1special');
+    // li.classList.add('col-1special');
     li.innerHTML = i;
     console.log(li);
     

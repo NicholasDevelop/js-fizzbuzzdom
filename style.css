@@ -8,9 +8,9 @@ body{
     background-color: #083B4C;
 }
 
-.col-1special{
-    width: calc(100% / 8);
-}
+/* .col-1special{
+    width: calc(100% / 9);
+} */
 
 .col-8{
     width: calc((100% / 12) * 8);
@@ -39,9 +39,13 @@ ul{
 
 .general-box{
     text-align: center;
-    align-items: center;
+    line-height: 80px;
     background-color: #1389B2;
     padding: 5px;
+    height: 100px;
+    width: 100px;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .fizz{
