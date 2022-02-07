@@ -4,13 +4,29 @@
     box-sizing: border-box;
 }
 
+.col-1{
+    width: calc(100% / 12);
+}
+
 ul{
     list-style: none;
 }
 
 /* BODY RULES  */
+h1{
+    text-align: center;
+    font-size: 68px;
+    margin: 40px 0;
+}
+
 ul{
     display: flex;
     gap: 30px 30px;
+    justify-content: center;
 }
 
+.general-box{
+    transform: scale(1);
+    text-align: center;
+    align-items: center;
+}
