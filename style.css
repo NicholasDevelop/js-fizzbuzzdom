@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+ul{
+    list-style: none;
+}
+
+/* BODY RULES  */
+ul{
+    display: flex;
+    gap: 30px 30px;
+}
+
